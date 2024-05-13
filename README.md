@@ -1,5 +1,5 @@
 # Project Responsive Web Design using Bootstrap
-## Date:10/05/2024
+## Date:13/05/2024
 
 ## AIM:
 To design a responsive website for a Pharmaceutical Company using Bootstrap.
@@ -29,6 +29,7 @@ Publish the website in the LocalHost.
 web.html
 ```
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +40,18 @@ web.html
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom CSS -->
   <style>
-    body 
+    body {
+        background-color: #10c75c;
+        }
+        .jumbotron {
+        background-color: #3b5f86;
+        color: #18f100;
+        }
+        .footer {
+        background-color: #343a40;
+        color: #fff;
+        padding: 20px 0;
+        }
     footer{
       position: fixed;
       left: 0;
@@ -116,6 +128,7 @@ product.html
 ```
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -126,7 +139,18 @@ product.html
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom CSS -->
   <style>
-    body 
+    body {
+        background-color: #10c75c;
+        }
+        .jumbotron {
+        background-color: #3b5f86;
+        color: #18f100;
+        }
+        .footer {
+        background-color: #343a40;
+        color: #fff;
+        padding: 20px 0;
+        }
     footer{
       position: fixed;
       left: 0;
@@ -181,26 +205,26 @@ product.html
         <h1>Our Products</h1>
         <div class="card-deck">
           <div class="card">
-            <img src="p.png" class="card-img-top" alt="Product 1">
+            <img src="e.png" class="card-img-top" alt="Product 1">
             <div class="card-body">
               <h5 class="card-title">Product 1</h5>
-              <p class="card-text">Paracetamol is a commonly used medicine that can help treat pain and reduce a high temperature (fever). It's typically used to relieve mild or moderate pain, such as headaches, toothache or sprains, and reduce fevers caused by illnesses such as colds and flu.</p>
+              <p class="card-text">dolo 650 is a commonly used medicine that can help treat pain and reduce a high temperature (fever). It's typically used to relieve mild or moderate pain, such as headaches, toothache or sprains, and reduce fevers caused by illnesses such as colds and flu.</p>
               <a href="#" class="btn btn-primary">Buy Now</a>
             </div>
           </div>
           <div class="card">
-            <img src="b.png" class="card-img-top" alt="Product 2">
+            <img src="d.png" class="card-img-top" alt="Product 2">
             <div class="card-body">
               <h5 class="card-title">Product 2</h5>
-              <p class="card-text">Benadryl Syrup is used in the treatment of cough. It relieves allergy symptoms such as runny nose, stuffy nose, sneezing, watery eyes, and congestion or stuffiness. It also thins mucus in the nose, windpipe, and lungs, making it easier to cough out.</p>
+              <p class="card-text">Cofsils Cough Syrup is used in the treatment of cough. It relieves allergy symptoms such as runny nose, stuffy nose, sneezing, watery eyes, and congestion or stuffiness. It also thins mucus in the nose, windpipe, and lungs, making it easier to cough out.</p>
               <a href="#" class="btn btn-primary">Buy Now</a>
             </div>
           </div>
           <div class="card">
-            <img src="a.png" class="card-img-top" alt="Product 3">
+            <img src="c.png" class="card-img-top" alt="Product 3">
             <div class="card-body">
               <h5 class="card-title">Product 3</h5>
-              <p class="card-text">Aspirin Tablets. Aspirin is a type of nonsteroidal anti-inflammatory drug (NSAID) that can treat mild to moderate pain, inflammation or arthritis. It also lowers your risk of heart attack, stroke or blood clot.</p>
+              <p class="card-text">Povidone Iodine is an anti-ulcerant which forms a coating over the affected skin surface. This creates a physical barrier that protects the skin from further injury, allowing it to heal. Sucralfate is an antiseptic applied on skin which is infected or is likely to get infected.</p>
               <a href="#" class="btn btn-primary">Buy Now</a>
             </div>
           </div>
@@ -223,6 +247,8 @@ about.html
 ```
 
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -233,7 +259,18 @@ about.html
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom CSS -->
   <style>
-    body
+    body{
+        background-color: #10c75c;
+        }
+        .jumbotron {
+        background-color: #3b5f86;
+        color: #18f100;
+        }
+        .footer {
+        background-color: #343a40;
+        color: #fff;
+        padding: 20px 0;
+        }
     footer
     {
     position: fixed;
@@ -326,6 +363,8 @@ contact.html
 ```
 
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -336,7 +375,18 @@ contact.html
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom CSS -->
   <style>
-    body
+    body{
+        background-color: #10c75c;
+        }
+        .jumbotron {
+        background-color: #3b5f86;
+        color: #18f100;
+        }
+        .footer {
+        background-color: #343a40;
+        color: #fff;
+        padding: 20px 0;
+        }
     footer{
       position: fixed;
       left: 0;
@@ -423,16 +473,16 @@ contact.html
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot 2024-05-10 191556.png>)
+![alt text](<Screenshot 2024-05-13 125537.png>)
 
-![alt text](<Screenshot 2024-05-10 191655.png>)
+![alt text](<Screenshot 2024-05-13 125809.png>)
 
-![alt text](<Screenshot 2024-05-10 191729.png>)
+![alt text](<Screenshot 2024-05-13 125845.png>)
 
-![alt text](<Screenshot 2024-05-10 191752.png>)
+![alt text](<Screenshot 2024-05-13 125926.png>)
+
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
